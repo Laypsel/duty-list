@@ -1,0 +1,25 @@
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.table tr:first-child>th:first-child+th {
+    text-align: left;
+}
+
+.bg {
+    background-color: #2a3644;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.bg th:not(:last-child){
+    border-right: 1px solid #3f4852;
+}
+
+.bg th {
+    border-bottom: 1px solid #3f4852;
+    padding: 13px 25px;
+}
